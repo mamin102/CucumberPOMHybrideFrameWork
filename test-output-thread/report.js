@@ -1,70 +1,70 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "90d5131a-b7e5-4880-a955-27e861ffb5dc",
-    "feature": "Register page feature",
-    "scenario": "Register a new user",
-    "start": 1677533917649,
+    "id": "d8089ed6-cbf4-4c2a-87f9-31e6d9881458",
+    "feature": "Account Page Feature",
+    "scenario": "Accounts Section Count",
+    "start": 1720465726012,
     "group": 1,
     "content": "",
-    "tags": "@register,",
-    "end": 1677533944145,
+    "tags": "@accounts,",
+    "end": 1720465736797,
+    "className": "passed"
+  },
+  {
+    "id": "34fd64f3-d24a-463f-be55-2a2ad297835c",
+    "feature": "Login Feature",
+    "scenario": "newUser button exist",
+    "start": 1720465754635,
+    "group": 1,
+    "content": "",
+    "tags": "@login,",
+    "end": 1720465762677,
+    "className": "passed"
+  },
+  {
+    "id": "faf410e1-56d5-484f-933b-81ca1648c510",
+    "feature": "Account Page Feature",
+    "scenario": "Account Page title",
+    "start": 1720465703012,
+    "group": 1,
+    "content": "",
+    "tags": "@accounts,",
+    "end": 1720465725989,
     "className": "failed"
   },
   {
-    "id": "421f26fe-3434-4b93-9efc-caf0ab84bfbf",
+    "id": "3de27a0a-4404-482b-9375-65223b430e70",
     "feature": "Login Feature",
     "scenario": "Login with correct credential",
-    "start": 1677533895517,
+    "start": 1720465762688,
     "group": 1,
     "content": "",
     "tags": "@login,",
-    "end": 1677533917629,
-    "className": "passed"
+    "end": 1720465788253,
+    "className": "failed"
   },
   {
-    "id": "7a8040f9-0600-48ea-af63-57242c2b9924",
-    "feature": "Account Page Feature",
-    "scenario": "Account Page title",
-    "start": 1677533841581,
-    "group": 1,
-    "content": "",
-    "tags": "@accounts,",
-    "end": 1677533861206,
-    "className": "passed"
-  },
-  {
-    "id": "0461f533-2b45-4a74-ac6e-9597503bf3cc",
-    "feature": "Account Page Feature",
-    "scenario": "Accounts Section Count",
-    "start": 1677533861240,
-    "group": 1,
-    "content": "",
-    "tags": "@accounts,",
-    "end": 1677533868245,
-    "className": "passed"
-  },
-  {
-    "id": "2fe74f41-9025-41f8-9d29-57e627977a12",
+    "id": "b2e768ec-55de-439d-ac91-c566ef9db767",
     "feature": "Login Feature",
     "scenario": "Login Page Title",
-    "start": 1677533868265,
+    "start": 1720465736813,
     "group": 1,
     "content": "",
     "tags": "@login,",
-    "end": 1677533890495,
+    "end": 1720465754626,
     "className": "passed"
   },
   {
-    "id": "38cf1dae-16e7-465d-912d-b25cd222cb90",
-    "feature": "Login Feature",
-    "scenario": "newUser button exist",
-    "start": 1677533890514,
+    "id": "34c69c4f-3572-44d9-b4f7-120b9bbba583",
+    "feature": "Register page feature",
+    "scenario": "Register a new user",
+    "start": 1720465788324,
     "group": 1,
     "content": "",
-    "tags": "@login,",
-    "end": 1677533895502,
-    "className": "passed"
+    "tags": "@register,",
+    "end": 1720465816531,
+    "className": "failed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
